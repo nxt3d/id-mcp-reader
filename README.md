@@ -43,6 +43,11 @@ npm run build
 
 *This installs the MCP configuration for Cursor. Setup the RPC_URL after clicking on the link as the RPC_URL is not set in the MCP configuration automatically.*
 
+If the link above doesn't work (e.g., on GitHub), copy and paste this URL directly into your browser:
+```
+cursor://anysphere.cursor-deeplink/mcp/install?name=id-mcp-reader&config=eyJjb21tYW5kIjoibm9kZSIsImFyZ3MiOlsiL1VzZXJzL254dDNkL3Byb2plY3RzL2lkL2lkLW1jcC1yZWFkZXIvZGlzdC9pbmRleC5qcyJdLCJlbnYiOnsiUlBDX1VSTCI6IjxZT1VSLVJQQy1VUkwtSEVSRT4ifX0=
+```
+
 #### Option B: Manual Configuration
 
 Add to your Cursor MCP settings:
