@@ -25,7 +25,7 @@ The ID parts are **reversed** and `.eth` is appended to create valid ENS names.
 First, clone and build the server:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/nxt3d/id-mcp-reader
 cd id-mcp-reader
 npm install
 npm run build
