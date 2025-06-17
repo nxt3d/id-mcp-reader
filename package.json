@@ -1,0 +1,37 @@
+{
+  "name": "id-mcp-reader",
+  "version": "1.0.0",
+  "description": "MCP server for ID resolution via ENS",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "node test/test.js",
+    "test:full": "node test/test-client.js",
+    "test:ens": "node test/test-ens.js",
+    "test:subdomain": "node test/test-subdomain.js"
+  },
+  "keywords": [
+    "mcp",
+    "ens",
+    "ethereum",
+    "id-resolution"
+  ],
+  "author": "@nxt3d (Prem Makeig)",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.3",
+    "dotenv": "^16.5.0",
+    "viem": "^2.21.53"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
